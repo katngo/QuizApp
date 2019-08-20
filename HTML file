@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cat Quiz</title>   
+    <meta charset="utf-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta name="description" content="Quiz App"> 
+   <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+  <!--Start Page-->
+      <h1>Cat Quiz</h1>
+         <p>What do you know about cats? Let's find out!</p>
+  <!--Question Page-->
+      <form role="form" action="/quiz" accept-charset="UTF-8" class="quiz">
+        <fieldset>
+          <legend>
+            <p>Why do cats rub themselves against their owners' legs and ankles?</p> 
+           </legend>
+              <ul type="A">
+                <li><label>"It's a sign of hunger"</label></li>
+                <li><label> "It's a way of greeting"</label></li>
+                <li><label>"It's a display of affection"</label></li>
+                <li><label>"It's a type of scent marking"</label></li>
+              </ul>
+              <input type="submit">
+        </fieldset>
+      </form>
+  <!--Feedback Page-->
+      <h2>Sorry, that's incorrect...</h2>
+      <p>The correct answer was C.</p>
+      <button id="nextQuestionButton">Next</button>
+  <!--Score Page-->
+      <h2>You finished the quiz!</h2>
+      <p>You scored 10/10</p>
+      <p>You are a cat lover!<p>
+      <button id="restartQuizButton">Try again</button>
+    </main>
+  </body>
+</html>
+
+
+
+
