@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: url('https://www.nicepng.com/png/full/889-8896760_transparent-edits-of-the-new-wallpapers-so-you.png') no-repeat left center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 8vw;
+  text-shadow: rgb(212, 196, 69) 8px 6px 23px;
+}
+
+.startQuiz {
+  display: block;
+  width: 80%;
+  margin: 50% auto 80% auto;
+  text-align: center;
+}
+
+.mainBox {
+  display: block;
+  width: 80%;
+  margin: 50% auto 50% auto;
+  padding: 40px 40px;
+  text-align: center;
+  background: rgb(255, 248, 194);
+  border: 8px solid gold;
+  box-shadow: 3px 1px 20px rgba(109, 50, 50, 0.18); 
+  border-radius: 1em;
+}
+
+.startButton, .nextButton, .submitButton, #retake {
+  width: 10em;
+  height: 30px;
+  background: transparent;
+  border: 1px solid black;
+  display: block;
+  margin: 30px auto 30px auto;
+  border-radius: 1em;
+  box-shadow: 3px 1px 20px rgba(109, 50, 50, 0.18);
+  font-size: 20px;
+}
+
+.startButton {
+  width: 60%;
+}
+
+button:hover {
+  background:rgb(255, 248, 194);
+  color: rgb(53, 54, 43);
+} 
+
+.QAform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+label {
+  font-size: 1.8vw;
+  width: 100%;
+  display: flex;
+  padding: 4px 11px;
+  vertical-align: middle;
+}
+
+p {
+  font-size: 1.8vw;
+}
+
+input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.count {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display:flex;
+  flex-direction: column;
+  font-size: 2vw;
+}
+
+.hideForm {
+  display: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+.icon {
+  display: block;
+  height: 250px;
+  width: 250px;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 11px solid white;
+  box-shadow: 2px 3px 20px 2px #e8e8e8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.circle:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 5vw;
+  }
+  .count{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  p, label {
+    font-size: 100%;
+  } 
+
+  .startButton, .nextButton, .submitButton, #retake {
+    font-size: 15px;
+    width: 40%;
+    min-width: 100px;
+  }
+
+  input[type="radio"] {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .count{
+    font-size: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  input[type="radio"] {
+    margin-top: 0;
+  }
+} 
+
