@@ -63,7 +63,7 @@ $('.mainBox').on("submit", function(event){
 //feedback for correct answer
 function handlecorrectAnswer(){
   $('.QAform').html(`
-  <img class = "icon circle" src = "https://scontent-sjc3-1.cdninstagram.com/vp/fadc1efd3ac0ec319902023f5f1d36f3/5E14E1F9/t51.2885-15/sh0.08/e35/p750x750/41209581_2711454375746242_7249941290232959123_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com" alt = "cat broke the vase"></img>
+  <img class = "icon circle" src = "https://github.com/katngo/catquiz/blob/master/cat-broke-vase.jpg?raw=true" alt = "cat broke the vase"></img>
   <p>Hmm...you're not bad at all</p>
   <button type = "button" class = "nextButton">Next</button>`);
   updateScore();
@@ -72,7 +72,7 @@ function handlecorrectAnswer(){
 //feedback for wrong answer
 function handleWrongAnswer(){
   $('.QAform').html(`
-  <img class = "icon circle" src = "https://scontent-sjc3-1.cdninstagram.com/vp/4d43e40488f3130379f3379379b7ff40/5E14434B/t51.2885-15/sh0.08/e35/p640x640/39085081_538471043239724_9129569070641840128_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com" alt = "cat tapping his tail"></img>
+  <img class = "icon circle" src = "https://github.com/katngo/catquiz/blob/master/cat-tapping-tail.jpg?raw=true" alt = "cat tapping his tail"></img>
   <p>Try harder, hooman!</p>
   <p> The correct answer is  `+ STORE[questionNum].correctAnswer +`</p>
   <button type = "button" class = "nextButton">Next</button>`);
